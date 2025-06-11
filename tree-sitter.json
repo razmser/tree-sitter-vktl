@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "vktl",
+      "camelcase": "VKTL",
+      "scope": "source.vktl",
+      "file-types": [
+        ".tl"
+      ],
+      "injection-regex": "^vktl$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Parser for TL language https://github.com/VKCOM/tl",
+    "authors": [
+      {
+        "name": "Sergei Razmetov",
+        "email": "razmser@gmail.com",
+        "url": "https://github.com/razmser"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/razmser/tree-sitter-vktl"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
